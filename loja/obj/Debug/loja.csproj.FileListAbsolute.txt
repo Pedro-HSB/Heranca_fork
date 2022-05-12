@@ -1,0 +1,8 @@
+C:\Users\F_Fonte\source\repos\heranca\Documents\Visual Studio 2015\Projects\loja\loja\bin\Debug\loja.exe.config
+C:\Users\F_Fonte\source\repos\heranca\Documents\Visual Studio 2015\Projects\loja\loja\bin\Debug\loja.exe
+C:\Users\F_Fonte\source\repos\heranca\Documents\Visual Studio 2015\Projects\loja\loja\bin\Debug\loja.pdb
+C:\Users\F_Fonte\source\repos\heranca\Documents\Visual Studio 2015\Projects\loja\loja\obj\Debug\loja.csproj.AssemblyReference.cache
+C:\Users\F_Fonte\source\repos\heranca\Documents\Visual Studio 2015\Projects\loja\loja\obj\Debug\loja.csproj.SuggestedBindingRedirects.cache
+C:\Users\F_Fonte\source\repos\heranca\Documents\Visual Studio 2015\Projects\loja\loja\obj\Debug\loja.csproj.CoreCompileInputs.cache
+C:\Users\F_Fonte\source\repos\heranca\Documents\Visual Studio 2015\Projects\loja\loja\obj\Debug\loja.exe
+C:\Users\F_Fonte\source\repos\heranca\Documents\Visual Studio 2015\Projects\loja\loja\obj\Debug\loja.pdb
