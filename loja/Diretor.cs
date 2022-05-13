@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace loja
 {
-    class Diretor:Pessoa
+    class Diretor : Cadastro
     {
     }
 }

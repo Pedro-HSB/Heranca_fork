@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 
 namespace loja
 {
-    class Clinte
+    class Cliente : Cadastro
     {
 
-        public void CodCliente()
+        public string client()
         {
-            Console.WriteLine("Codigo do Cliente");
+            Cadastro tesla = new Cadastro();
+            tesla.CadastrarPessoa();
+            return finish;
         }
     }
 }

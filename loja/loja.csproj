@@ -44,8 +44,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Clinte.cs" />
-    <Compile Include="Cordenador.cs" />
+    <Compile Include="Cadastro.cs" />
+    <Compile Include="Cliente.cs" />
+    <Compile Include="Coordenador.cs" />
     <Compile Include="Funcionario.cs" />
     <Compile Include="Supervisor.cs" />
     <Compile Include="Gerente.cs" />

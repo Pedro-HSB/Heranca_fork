@@ -6,17 +6,14 @@ using System.Threading.Tasks;
 
 namespace loja
 {
-    class Cordenador : Pessoa
+    class Coordenador : Cadastro
     {
-        string key;
-
         public string CadastroEquipes()
         {
             string NomeEquipe;
 
             string CordEquipe;
 
-            return CadastroEquipes();
             Console.WriteLine("Qual o Nome Da Equipe?");
             NomeEquipe = Console.ReadLine();
 
@@ -27,21 +24,45 @@ namespace loja
             key = Console.ReadLine();
             if (key == "sim")
             {
-                string funcionario;
                 Console.WriteLine("Qual o Nome Do Funcionario?");
-                funcionario = Console.ReadLine();
+                nome = Console.ReadLine();
             }
+            else
+            {
+                string AreaEquipe;
+
+                Console.WriteLine("Qual Area Essa Equipe Esta");
+                AreaEquipe = Console.ReadLine();
+
+                Console.WriteLine("Deseja Cadastrar Um Coordenador");
+                key = Console.ReadLine();
+
+                if(key =="sim" || key =="SIM")
+                {
+                    Cadastro Coorde = new Cadastro();
+                    Console.WriteLine();
+                    Coorde.CadastrarPessoa();
+                }
+            }
+            return finish;
         }
 
-        public string Equipe()
+        public string Opcoes()
         {
-            return Equipe();
             Console.WriteLine("Deseja cadastrar Uma Equipe nova ?");
             key = Console.ReadLine();
             if (key == "sim")
             {
                 return CadastroEquipes();
             }
+            else
+            {
+                Cadastro Pag = new Cadastro();
+                Pag.PagInicial();
+
+                return finish;
+            }
+
         }
 
     }

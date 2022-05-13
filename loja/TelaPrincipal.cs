@@ -17,29 +17,45 @@ namespace loja
             Console.WriteLine("Escolha Qual Operacao Deseja fazer");
             Console.WriteLine();
             Console.WriteLine("Para Cadastrar Funcionario Digite '1' ");
-            Console.WriteLine("Para Cadastrar Setor  Digite '2' ");
-            Console.WriteLine("Para Cadastrar Equipe  Digite '3' ");
+            Console.WriteLine("Para Cadastrar Cliente Digite '2' ");
+            Console.WriteLine("Para Cadastrar Coordenador Digite '3' ");
+            Console.WriteLine("Para Cadastrar Supervisor Digite '4' ");
+            Console.WriteLine("Para Cadastrar Gerente Digite '5' ");
+            Console.WriteLine("Para Cadastrar Setor  Digite '6' ");
+            Console.WriteLine("Para Cadastrar Equipe  Digite '7' ");
             Console.WriteLine();
             chave = int.Parse(Console.ReadLine());
 
-            if (chave == 1)
+            switch (chave)
             {
-                Console.WriteLine();
-                Pessoa nome = new Pessoa();
-                nome.CadastrarNome();
-                nome.ExibirInfo();
-                Console.ReadKey();
-            }
-            if (chave == 2)
-            {
-                Console.WriteLine("teste2");
-                Console.ReadKey();
-            }
-            if (chave == 3)
-            {
-                Gerente equipe = new Gerente();
+                case 1:
+                    Console.WriteLine();
+                    Funcionario novo = new Funcionario();
+                    novo.Opcoes();
+                    break;
 
-                Console.ReadKey();
+                    case 2:
+                    Cliente Cadast = new Cliente();
+                    Cadast.CadastrarPessoa();
+
+                    break;
+
+                case 3:
+
+                    break;
+
+                case 4:
+
+                    break;
+
+                case 5:
+
+                    break;
+
+                case 7:
+                    Coordenador equipe = new Coordenador();
+                    equipe.Opcoes();
+                    break;
             }
             return chave;
         }
